@@ -1,0 +1,162 @@
+{
+  "name": "auth",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/auth/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/auth/browser",
+        "index": "apps/auth/src/index.html",
+        "baseHref": "/",
+        "main": "apps/auth/src/main.ts",
+        "tsConfig": "apps/auth/tsconfig.app.json",
+        "assets": ["apps/auth/src/favicon.ico", "apps/auth/src/assets"],
+        "styles": ["apps/auth/src/styles.css"],
+        "scripts": [],
+        "webpackConfig": "apps/auth/webpack.config.ts",
+        "postcssConfig": "apps/auth/postcss.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/auth/src/environments/environment.ts",
+              "with": "apps/auth/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "webpackConfig": "apps/auth/webpack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/react:module-federation-ssr-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "browserTarget": "auth:build:development",
+        "serverTarget": "auth:serve-server:development",
+        "port": 4200,
+        "browserTargetOptions": {
+          "watch": true
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "browserTarget": "auth:build:production",
+          "serverTarget": "auth:serve-server:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "auth:build",
+        "watch": false,
+        "port": 4200
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "auth:build:development"
+        },
+        "production": {
+          "buildTarget": "auth:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/auth/jest.config.ts"
+      }
+    },
+    "server": {
+      "dependsOn": ["build"],
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "main": "apps/auth/server.ts",
+        "outputPath": "dist/apps/auth/server",
+        "outputFileName": "server.js",
+        "tsConfig": "apps/auth/tsconfig.server.json",
+        "compiler": "babel",
+        "externalDependencies": "all",
+        "outputHashing": "none",
+        "webpackConfig": "apps/auth/webpack.server.config.ts"
+      },
+      "configurations": {
+        "development": {
+          "optimization": false,
+          "sourceMap": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/auth/src/environments/environment.ts",
+              "with": "apps/auth/src/environments/environment.prod.ts"
+            }
+          ],
+          "sourceMap": false
+        }
+      }
+    },
+    "serve-browser": {
+      "executor": "@nx/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "auth:build",
+        "hmr": true,
+        "port": 4200
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "auth:build:development"
+        },
+        "production": {
+          "buildTarget": "auth:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "serve-server": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "auth:server:development",
+        "buildTargetOptions": {
+          "watch": true
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "buildTarget": "auth:server:production"
+        }
+      }
+    }
+  }
+}
