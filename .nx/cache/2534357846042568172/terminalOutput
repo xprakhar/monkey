@@ -1,0 +1,21 @@
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[34m[ Module Federation Manifest Plugin ]: Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'[39m[22m
+Entrypoint [1mmain[39m[22m 73.6 KiB = [1m[32mmain.42439ac173e712a9.js[39m[22m
+Entrypoint [1mstyles[39m[22m 89.1 KiB = [1m[32mstyles.c91d8a54274056cb.css[39m[22m 17 KiB [1m[32mstyles.951fd85cbe21b287.js[39m[22m 72 KiB
+chunk (runtime: main, styles) [1m[32m41.5e565040f4549f4f.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m144.30afcf4cb56ccd69.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m183.a6128448c2470ae0.js[39m[22m (id hint: vendors) 1.21 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m195.da1510b6cb8bd6b8.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32m293.5192a75f99177202.js[39m[22m 48.6 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m419.4a78c3d0920b2bab.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32m423.8f62417c72acc64a.js[39m[22m 32.4 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m674.3b4c146eac757618.js[39m[22m 49.6 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m696.779f0cf343224c8a.js[39m[22m 843 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mmain.42439ac173e712a9.js[39m[22m (main) 162 KiB (javascript) 336 bytes (share-init) 17.1 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: styles) [1m[32mstyles.c91d8a54274056cb.css[39m[22m, [1m[32mstyles.951fd85cbe21b287.js[39m[22m (styles) 162 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.9 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m913.0bbbe93d6b4ee242.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) 42 bytes
+webpack compiled [1m[32msuccessfully[39m[22m (b264e6811420385c)

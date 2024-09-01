@@ -5,7 +5,7 @@ import {
   monthSchema,
   yearSchema,
   birthdateSchema,
-} from '../../schemas/SignupSchema';
+} from '../../schemas/signup-schema';
 import NextBtnLarge from '../../components/buttons/NextBtnLarge';
 import InputNested from '../../components/form/InputNested';
 import { PanelProps } from './signup.d';

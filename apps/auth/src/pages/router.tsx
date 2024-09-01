@@ -1,9 +1,6 @@
 import { Outlet, RouteObject } from 'react-router-dom';
-import { Route as LoginRoute } from './pages/login/Page';
-import {
-  Route as SignupRoute,
-  action as SignupAction,
-} from './pages/signup/Page';
+import { Route as LoginRoute } from './login/Page';
+import { Route as SignupRoute, action as SignupAction } from './signup/Page';
 
 export const routes: RouteObject[] = [
   {

@@ -1,0 +1,131 @@
+
+[7m[1m[36m NX [39m[22m[27m [1mStarting module federation dev-server for [1mauth[22m[1m with 0 remotes[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mStarting static remotes proxies...[22m
+
+Nx SSR Static remotes proxies started successfully
+[1m[33mOption "isolatedConfig" is deprecated: Automatic configuration of Webpack is deprecated in favor of an explicit 'webpack.config.js' file. This option will be removed in Nx 20. See https://nx.dev/recipes/webpack/webpack-config-setup.[39m[22m
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[34m[ Module Federation Manifest Plugin ]: Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'[39m[22m
+[1m[33m[ Module Federation Manifest Plugin ]: Manifest will not generate, because publicPath can only be string, but got 'undefined' [39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 57.6 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (408a4dcef4e10dce)
+[1m[31mDebugger listening on ws://localhost:9229/3475c140-f39f-4ed0-b0c7-5a3d713350e2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3475c140-f39f-4ed0-b0c7-5a3d713350e2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+To exit the process, press Ctrl+C
+Express server listening on http://localhost:8080
+Entrypoint [1mmain[39m[22m 193 KiB (221 KiB) = [1m[32mvendor.js[39m[22m 167 KiB [1m[32mmain.js[39m[22m 26.2 KiB 2 auxiliary assets
+Entrypoint [1mstyles[39m[22m 213 KiB (224 KiB) = [1m[32mstyles.css[39m[22m 24.4 KiB [1m[32mstyles.js[39m[22m 188 KiB 2 auxiliary assets
+chunk (runtime: main) [1m[32m89.js[39m[22m 31.7 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 165 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: main, styles) [1m[32m195.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m265.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m289.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m318.js[39m[22m 49.1 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m475.js[39m[22m 771 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m485.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m552.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m770.js[39m[22m (id hint: vendors) 1.15 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 bytes (javascript) 336 bytes (share-init) 17.7 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: styles) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 165 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.6 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m937.js[39m[22m 48.1 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+webpack compiled [1m[32msuccessfully[39m[22m (83f5734732cf593a)
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 57.6 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c51453916a42b52a)
+[1m[31mDebugger listening on ws://localhost:9229/ba7b20c5-f9dd-4f43-b8bb-c5fffae00436[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ba7b20c5-f9dd-4f43-b8bb-c5fffae00436[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+To exit the process, press Ctrl+C
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 57.6 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/services/UserRepository.ts:[32m[1m21:2[22m[39m[1m[39m[22m
+[90mTS1270: [39mDecorator function return type '(target: DecoratorTarget<unknown>, targetKey?: string | symbol | undefined, indexOrPropertyDescriptor?: number | TypedPropertyDescriptor<UserRepository> | undefined) => void' is not assignable to type 'void | typeof UserRepository'.
+  [0m [90m 19 |[39m [36mexport[39m [36mclass[39m [33mUserRepository[39m [36mimplements[39m [33mIUserRepository[39m {
+   [90m 20 |[39m   [36mprivate[39m conn[33m:[39m [33mMongoConn[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 21 |[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 22 |[39m   constructor([33m@[39minject([33mTYPES[39m[33m.[39m[33mMongoConn[39m) conn[33m:[39m [33mMongoConn[39m) {
+   [90m 23 |[39m     [36mthis[39m[33m.[39mconn [33m=[39m conn[33m;[39m
+   [90m 24 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (46d222bef25f9478)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 57.6 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/services/UserRepository.ts:[32m[1m18:2[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'injectable'.
+  [0m [90m 16 |[39m }
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m [33m@[39minjectable()
+   [90m    |[39m  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m [36mexport[39m [36mclass[39m [33mUserRepository[39m [36mimplements[39m [33mIUserRepository[39m {
+   [90m 20 |[39m   [36mprivate[39m conn[33m:[39m [33mMongoConn[39m[33m;[39m
+   [90m 21 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a6d9be1c32382d49)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+Entrypoint [1mmain[39m[22m 193 KiB (221 KiB) = [1m[32mvendor.js[39m[22m 167 KiB [1m[32mmain.js[39m[22m 26.2 KiB 2 auxiliary assets
+Entrypoint [1mstyles[39m[22m 213 KiB (224 KiB) = [1m[32mstyles.css[39m[22m 24.4 KiB [1m[32mstyles.js[39m[22m 188 KiB 2 auxiliary assets
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m80.js[39m[22m 49.1 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m89.js[39m[22m 31.7 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 165 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: main, styles) [1m[32m171.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m389.js[39m[22m (id hint: vendors) 1.15 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m576.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m646.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32m699.js[39m[22m 48.1 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m765.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 bytes (javascript) 336 bytes (share-init) 17.7 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m856.js[39m[22m 771 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m866.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: styles) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 165 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.6 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (add36a8ef70fb7dd)
+Entrypoint [1mmain[39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m 2 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 2 auxiliary assets
+chunk (runtime: main) [1m[32m89.js[39m[22m 31.7 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 165 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: main, styles) [1m[32m195.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m265.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m289.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m318.js[39m[22m 49.1 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m475.js[39m[22m 771 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m485.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m552.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m770.js[39m[22m (id hint: vendors) 1.15 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 bytes (javascript) 336 bytes (share-init) 17.7 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: styles) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 165 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.6 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m937.js[39m[22m 48.1 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/services/UserRepository.ts:[32m[1m18:2[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'injectable'.
+  [0m [90m 16 |[39m }
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m [33m@[39minjectable()
+   [90m    |[39m  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m [36mexport[39m [36mclass[39m [33mUserRepository[39m [36mimplements[39m [33mIUserRepository[39m {
+   [90m 20 |[39m   [36mprivate[39m conn[33m:[39m [33mMongoConn[39m[33m;[39m
+   [90m 21 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (05448a6abcb7a66d)
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCould not build application[39m
+
+Pass --verbose to see the stacktrace.
+

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run auth:build --configuration=production",
+    "startTime": "2024-08-30T20:13:40.161Z",
+    "endTime": "2024-08-30T20:14:30.689Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "auth:build:production",
+      "target": "build",
+      "projectName": "auth",
+      "hash": "2534357846042568172",
+      "startTime": "2024-08-30T20:13:40.178Z",
+      "endTime": "2024-08-30T20:14:30.686Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

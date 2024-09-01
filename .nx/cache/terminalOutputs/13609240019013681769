@@ -1,0 +1,397 @@
+
+[7m[1m[36m NX [39m[22m[27m [1mStarting module federation dev-server for [1mauth[22m[1m with 0 remotes[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mStarting static remotes proxies...[22m
+
+Nx SSR Static remotes proxies started successfully
+[1m[33mOption "isolatedConfig" is deprecated: Automatic configuration of Webpack is deprecated in favor of an explicit 'webpack.config.js' file. This option will be removed in Nx 20. See https://nx.dev/recipes/webpack/webpack-config-setup.[39m[22m
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[34m[ Module Federation Manifest Plugin ]: Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'[39m[22m
+[1m[33m[ Module Federation Manifest Plugin ]: Manifest will not generate, because publicPath can only be string, but got 'undefined' [39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 57.7 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bdf10871afb24ede)
+[1m[31mDebugger listening on ws://localhost:9229/cb26f799-3c53-4847-b8f8-0bd40c6d71ee[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cb26f799-3c53-4847-b8f8-0bd40c6d71ee[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+To exit the process, press Ctrl+C
+Entrypoint [1mmain[39m[22m 193 KiB (221 KiB) = [1m[32mvendor.js[39m[22m 167 KiB [1m[32mmain.js[39m[22m 26.2 KiB 2 auxiliary assets
+Entrypoint [1mstyles[39m[22m 213 KiB (224 KiB) = [1m[32mstyles.css[39m[22m 24.4 KiB [1m[32mstyles.js[39m[22m 188 KiB 2 auxiliary assets
+chunk (runtime: main) [1m[32m89.js[39m[22m 31.7 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 165 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: main, styles) [1m[32m195.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m265.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m289.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m318.js[39m[22m 49.1 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m475.js[39m[22m 771 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m485.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m552.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m770.js[39m[22m (id hint: vendors) 1.15 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 bytes (javascript) 336 bytes (share-init) 17.7 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: styles) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 165 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.6 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m937.js[39m[22m 48.1 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+webpack compiled [1m[32msuccessfully[39m[22m (83f5734732cf593a)
+Express server listening on http://localhost:8080
+Entrypoint [1mmain[39m[22m 193 KiB (221 KiB) = [1m[32mvendor.js[39m[22m 167 KiB [1m[32mmain.js[39m[22m 26.2 KiB 2 auxiliary assets
+Entrypoint [1mstyles[39m[22m 213 KiB (224 KiB) = [1m[32mstyles.css[39m[22m 24.4 KiB [1m[32mstyles.js[39m[22m 188 KiB 2 auxiliary assets
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m80.js[39m[22m 49.1 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m89.js[39m[22m 31.7 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 165 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: main, styles) [1m[32m171.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m389.js[39m[22m (id hint: vendors) 1.15 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m576.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m646.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32m699.js[39m[22m 48.1 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m765.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 bytes (javascript) 336 bytes (share-init) 17.7 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m856.js[39m[22m 771 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m866.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: styles) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 165 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.6 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (add36a8ef70fb7dd)
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 56.1 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/controllers/home.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\prabi\source\repos\monkey\apps\auth\src\controllers\home.ts: Decorators must be attached to a class element. (19:0)
+
+[0m [90m 17 |[39m   [33m@[39mhttp
+ [90m 18 |[39m }
+[31m[1m>[22m[39m[90m 19 |[39m
+ [90m    |[39m [31m[1m^[22m[39m[0m
+    at toParseError (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parse-error.ts:78:45)
+    at TypeScriptParserMixin.raise (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\tokenizer\index.ts:1496:19)
+    at TypeScriptParserMixin.parseClassBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1819:18)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1722:22)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3921:22)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2564:25)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3137:15)
+    at TypeScriptParserMixin.maybeParseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2493:31)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2377:29)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2799:22)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:596:25)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2887:20)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:426:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:363:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1395:16)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1369:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:217:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:199:25)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\index.ts:46:10)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:4011:20)
+    at parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\index.ts:65:38)
+    at parser (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:261:32)
+    at C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:223:11)
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts[39m[22m
+[90mTS7008: [39mMember '(Missing)' implicitly has an 'any' type.
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m17:4[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'http'.
+  [0m [90m 15 |[39m
+   [90m 16 |[39m
+  [31m[1m>[22m[39m[90m 17 |[39m   [33m@[39mhttp
+   [90m    |[39m    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 18 |[39m }
+   [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (710933a73fde511e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 56.1 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/controllers/home.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\prabi\source\repos\monkey\apps\auth\src\controllers\home.ts: Decorators must be attached to a class element. (20:0)
+
+[0m [90m 18 |[39m   [33m@[39mhttpPost
+ [90m 19 |[39m }
+[31m[1m>[22m[39m[90m 20 |[39m
+ [90m    |[39m [31m[1m^[22m[39m[0m
+    at toParseError (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parse-error.ts:78:45)
+    at TypeScriptParserMixin.raise (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\tokenizer\index.ts:1496:19)
+    at TypeScriptParserMixin.parseClassBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1819:18)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1722:22)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3921:22)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2564:25)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3137:15)
+    at TypeScriptParserMixin.maybeParseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2493:31)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2377:29)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2799:22)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:596:25)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2887:20)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:426:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:363:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1395:16)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1369:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:217:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:199:25)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\index.ts:46:10)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:4011:20)
+    at parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\index.ts:65:38)
+    at parser (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:261:32)
+    at C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:223:11)
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts[39m[22m
+[90mTS7008: [39mMember '(Missing)' implicitly has an 'any' type.
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m18:4[22m[39m[1m[39m[22m
+[90mTS1240: [39mUnable to resolve signature of property decorator when called as an expression.
+  Argument of type 'Home' is not assignable to parameter of type 'string'.
+  [0m [90m 16 |[39m
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m   [33m@[39mhttpPost
+   [90m    |[39m    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m }
+   [90m 20 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m18:4[22m[39m[1m[39m[22m
+[90mTS1271: [39mDecorator function return type is 'HandlerDecorator' but is expected to be 'void' or 'any'.
+  [0m [90m 16 |[39m
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m   [33m@[39mhttpPost
+   [90m    |[39m    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m }
+   [90m 20 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (fee55764c4e9ead1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 56.1 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/controllers/home.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\prabi\source\repos\monkey\apps\auth\src\controllers\home.ts: Decorators must be attached to a class element. (20:0)
+
+[0m [90m 18 |[39m   [33m@[39mhttpPost([32m'regitser'[39m)
+ [90m 19 |[39m }
+[31m[1m>[22m[39m[90m 20 |[39m
+ [90m    |[39m [31m[1m^[22m[39m[0m
+    at toParseError (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parse-error.ts:78:45)
+    at TypeScriptParserMixin.raise (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\tokenizer\index.ts:1496:19)
+    at TypeScriptParserMixin.parseClassBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1819:18)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1722:22)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3921:22)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2564:25)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3137:15)
+    at TypeScriptParserMixin.maybeParseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2493:31)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2377:29)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2799:22)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:596:25)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2887:20)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:426:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:363:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1395:16)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1369:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:217:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:199:25)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\index.ts:46:10)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:4011:20)
+    at parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\index.ts:65:38)
+    at parser (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:261:32)
+    at C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:223:11)
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts[39m[22m
+[90mTS7008: [39mMember '(Missing)' implicitly has an 'any' type.
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS1240: [39mUnable to resolve signature of property decorator when called as an expression.
+  The runtime will invoke the decorator with 2 arguments, but the decorator expects 3.
+  [0m [90m 16 |[39m
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m   [33m@[39mhttpPost([32m'regitser'[39m)
+   [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m }
+   [90m 20 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (f00f887e0c0d88f6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 56.1 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/controllers/home.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\prabi\source\repos\monkey\apps\auth\src\controllers\home.ts: Decorators must be attached to a class element. (20:0)
+
+[0m [90m 18 |[39m   [33m@[39mhttpPost([32m'register'[39m)
+ [90m 19 |[39m }
+[31m[1m>[22m[39m[90m 20 |[39m
+ [90m    |[39m [31m[1m^[22m[39m[0m
+    at toParseError (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parse-error.ts:78:45)
+    at TypeScriptParserMixin.raise (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\tokenizer\index.ts:1496:19)
+    at TypeScriptParserMixin.parseClassBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1819:18)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1722:22)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3921:22)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2564:25)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3137:15)
+    at TypeScriptParserMixin.maybeParseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2493:31)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2377:29)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2799:22)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:596:25)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2887:20)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:426:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:363:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1395:16)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1369:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:217:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:199:25)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\index.ts:46:10)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:4011:20)
+    at parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\index.ts:65:38)
+    at parser (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:261:32)
+    at C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:223:11)
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts[39m[22m
+[90mTS7008: [39mMember '(Missing)' implicitly has an 'any' type.
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS1240: [39mUnable to resolve signature of property decorator when called as an expression.
+  The runtime will invoke the decorator with 2 arguments, but the decorator expects 3.
+  [0m [90m 16 |[39m
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m   [33m@[39mhttpPost([32m'register'[39m)
+   [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m }
+   [90m 20 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (393ab0afae097430)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: server) [1m[32mserver.js[39m[22m (server) 56.1 KiB (javascript) 3.45 KiB (runtime) [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/controllers/home.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\prabi\source\repos\monkey\apps\auth\src\controllers\home.ts: Decorators must be attached to a class element. (20:0)
+
+[0m [90m 18 |[39m   [33m@[39mhttpPost([32m'register'[39m) 
+ [90m 19 |[39m }
+[31m[1m>[22m[39m[90m 20 |[39m
+ [90m    |[39m [31m[1m^[22m[39m[0m
+    at toParseError (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parse-error.ts:78:45)
+    at TypeScriptParserMixin.raise (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\tokenizer\index.ts:1496:19)
+    at TypeScriptParserMixin.parseClassBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1819:18)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1722:22)
+    at TypeScriptParserMixin.parseClass (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3921:22)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2564:25)
+    at TypeScriptParserMixin.parseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:3137:15)
+    at TypeScriptParserMixin.maybeParseExportDeclaration (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2493:31)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:2377:29)
+    at TypeScriptParserMixin.parseExport (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2799:22)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:596:25)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:2887:20)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:426:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:363:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1395:16)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:1369:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:217:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\statement.ts:199:25)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\parser\index.ts:46:10)
+    at TypeScriptParserMixin.parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\plugins\typescript\index.ts:4011:20)
+    at parse (C:\Users\prabi\source\repos\monkey\node_modules\@babel\parser\src\index.ts:65:38)
+    at parser (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transformation\index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (C:\Users\prabi\source\repos\monkey\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:261:32)
+    at C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\prabi\source\repos\monkey\node_modules\gensync\index.js:223:11)
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts[39m[22m
+[90mTS7008: [39mMember '(Missing)' implicitly has an 'any' type.
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS1240: [39mUnable to resolve signature of property decorator when called as an expression.
+  The runtime will invoke the decorator with 2 arguments, but the decorator expects 3.
+  [0m [90m 16 |[39m
+   [90m 17 |[39m
+  [31m[1m>[22m[39m[90m 18 |[39m   [33m@[39mhttpPost([32m'register'[39m) 
+   [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 19 |[39m }
+   [90m 20 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (0dabe2993bcb2fff)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+Entrypoint [1mmain[39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m 2 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 2 auxiliary assets
+chunk (runtime: main) [1m[32m89.js[39m[22m 31.7 KiB (javascript) 336 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 165 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+chunk (runtime: main, styles) [1m[32m195.js[39m[22m (id hint: vendors) 146 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m265.js[39m[22m (id hint: vendors) 477 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m289.js[39m[22m (id hint: vendors) 228 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m318.js[39m[22m 49.1 KiB (javascript) 42 bytes (consume-shared) [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 84 bytes
+chunk (runtime: main, styles) [1m[32m475.js[39m[22m 771 bytes [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) [1m[32m485.js[39m[22m (id hint: vendors) 134 KiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main, styles) [1m[32m552.js[39m[22m 6.95 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: main, styles) [1m[32m770.js[39m[22m (id hint: vendors) 1.15 MiB [1m[32m[rendered][39m[22m [1m[33mreused as split chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 55 bytes (javascript) 336 bytes (share-init) 17.7 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+chunk (runtime: styles) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 165 KiB (javascript) 24.4 KiB (css/mini-extract) 336 bytes (share-init) 14.6 KiB (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m937.js[39m[22m 48.1 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main, styles) 42 bytes
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts[39m[22m
+[90mTS7008: [39mMember '(Missing)' implicitly has an 'any' type.
+
+[1m[31mERROR[39m[22m in [1m./apps/auth/src/controllers/home.ts:[32m[1m17:4[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'http'.
+  [0m [90m 15 |[39m   }
+   [90m 16 |[39m
+  [31m[1m>[22m[39m[90m 17 |[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 18 |[39m   [33m@[39mhttpPost([32m'register'[39m)
+   [90m 19 |[39m   [36masync[39m 
+   [90m 20 |[39m }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (05448a6abcb7a66d)
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCould not build application[39m
+
+Pass --verbose to see the stacktrace.
+

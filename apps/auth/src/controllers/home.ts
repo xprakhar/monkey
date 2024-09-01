@@ -7,19 +7,26 @@ import {
   response,
 } from 'inversify-express-utils';
 import { ZodError } from 'zod';
-import { signupSchema } from '../schemas/SignupSchema';
-import { IUserRepository } from '../services/UserRepository';
-import { TYPES } from '../inversify-types';
-import { inject } from 'inversify';
 import { StatusCodes } from 'http-status-codes';
 import { MongoServerError } from 'mongodb';
+import { signupSchema } from '../schemas/signup-schema';
+import { IUsers } from '../services/users';
+import { Types } from '../constants/inversify-types';
+import { inject } from 'inversify';
+import { IAuthService } from '../services/auth-service';
+import { loginSchema } from '../schemas/login-schema';
 
 @controller('/')
 export class Home {
-  private usersRepo: IUserRepository;
+  private users: IUsers;
+  private authService: IAuthService;
 
-  constructor(@inject(TYPES.UserRepository) usersRepo: IUserRepository) {
-    this.usersRepo = usersRepo;
+  constructor(
+    @inject(Types.USERS) usersRepo: IUsers,
+    @inject(Types.AUTH_SERVICE) authService: IAuthService,
+  ) {
+    this.users = usersRepo;
+    this.authService = authService;
   }
 
   @httpGet('greet')
@@ -32,13 +39,13 @@ export class Home {
     try {
       const { email, password, birthdate } = signupSchema.parse(req.body);
 
-      await this.usersRepo.save({
+      await this.users.save({
         _id: email,
         password: password,
         birthdate,
       });
 
-      res.status(StatusCodes.OK).json({
+      res.status(StatusCodes.CREATED).json({
         status: 'success',
         message: 'User successfully registered',
       });
@@ -66,6 +73,30 @@ export class Home {
         return;
       }
 
+      res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+        status: 'failed',
+        message: 'An unexpected error occurred, try again later',
+      });
+    }
+  }
+
+  @httpPost('login')
+  async login(@request() req: Request, @response() res: Response) {
+    try {
+      const { username, password } = loginSchema.parse(req.body);
+      const [accessToken, refreshToken] = await this.authService.authorize(
+        username,
+        password,
+      );
+
+      res.send(StatusCodes.OK).json({
+        status: 'success',
+        message: {
+          accessToken,
+          refreshToken,
+        },
+      });
+    } catch (error) {
       res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
         status: 'failed',
         message: 'An unexpected error occurred, try again later',

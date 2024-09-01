@@ -19,9 +19,7 @@ export class MongoConn {
     });
   }
 
-  async getCollection<T extends Document>(name: string) {
-    return (await this.client.connect())
-      .db(process.env.DB_NAME)
-      .collection<T>(name);
+  getCollection<T extends Document>(name: string) {
+    return this.client.db(process.env.DB_NAME).collection<T>(name);
   }
 }

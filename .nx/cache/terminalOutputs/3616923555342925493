@@ -1,0 +1,24 @@
+
+[7m[1m[36m NX [39m[22m[27m [1mStarting module federation dev-server for [1mauth[22m[1m with 0 remotes[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mStarting static remotes proxies...[22m
+
+Nx SSR Static remotes proxies started successfully
+[1m[33mOption "isolatedConfig" is deprecated: Automatic configuration of Webpack is deprecated in favor of an explicit 'webpack.config.js' file. This option will be removed in Nx 20. See https://nx.dev/recipes/webpack/webpack-config-setup.[39m[22m
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[33mCould not find a version for "webpack" in the root "package.json" when collecting shared packages for the Module Federation setup. The package will not be shared.[39m[22m
+[1m[34m[ Module Federation Manifest Plugin ]: Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'[39m[22m
+C:\Users\prabi\source\repos\monkey\apps\auth\webpack.server.config.ts:27
+    config.plugins?.push(new _webpack.default.DefinePlugin({
+                                              ^
+
+TypeError: Cannot read properties of undefined (reading 'DefinePlugin')
+    at [90mC:\Users\prabi\source\repos\monkey\[39mapps\auth\webpack.server.config.ts:27:47
+    at combined [90m(C:\Users\prabi\source\repos\monkey\[39mnode_modules\[4m@nx[24m\webpack\src\utils\config.js:25:28[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+    at getWebpackConfigs [90m(C:\Users\prabi\source\repos\monkey\[39mnode_modules\[4m@nx[24m\webpack\src\executors\webpack\webpack.impl.js:37:16[90m)[39m
+    at webpackExecutor [90m(C:\Users\prabi\source\repos\monkey\[39mnode_modules\[4m@nx[24m\webpack\src\executors\webpack\webpack.impl.js:98:21[90m)[39m
+    at [90mC:\Users\prabi\source\repos\monkey\[39mnode_modules\[4m@nx[24m\js\src\executors\node\node.impl.js:226:31
+
+Node.js v20.10.0

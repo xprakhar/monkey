@@ -9,7 +9,7 @@ import {
   createStaticHandler,
   createStaticRouter,
 } from 'react-router-dom/server';
-import { routes } from './router';
+import { routes } from './pages/router';
 
 let indexHtml: null | string = null;
 
@@ -73,7 +73,7 @@ export function handleRequest(indexPath: string) {
     ) {
       return res.redirect(
         context.status,
-        context.headers.get('Location') as string
+        context.headers.get('Location') as string,
       );
     }
 
@@ -101,7 +101,7 @@ export function handleRequest(indexPath: string) {
           didError = true;
           console.error(error);
         },
-      }
+      },
     );
   };
 }
